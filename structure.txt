@@ -1,0 +1,28 @@
+Windows  볼륨에 대한 폴더 경로의 목록입니다.
+볼륨 일련 번호는 DE26-9533입니다.
+C:.
+│  .env
+│  structure.txt
+│  
+├─app
+│  │  database.py
+│  │  main.py
+│  │  test_main.py
+│  │  
+│  ├─auth
+│  ├─routers
+│  │      hospital_router.py
+│  │      user_router.py
+│  │      visit_router.py
+│  │      
+│  ├─services
+│  │      face_utils.py
+│  │      whisper_intergration.py
+│  │      
+│  └─utils
+│          uuid_generator.py
+│          
+├─scripts
+│      generate_fake_users.py
+│      
+└─uploads
