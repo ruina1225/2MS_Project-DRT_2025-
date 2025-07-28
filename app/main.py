@@ -7,6 +7,7 @@ import oracledb
 from fastapi import FastAPI, UploadFile, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import user_router, hospital_router, visit_router
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
@@ -25,3 +26,5 @@ app.include_router(hospital_router.router, prefix="/hospitals", tags=["Hospitals
 app.include_router(visit_router.router, prefix="/visits", tags=["Visits"])
 
 
+# # 정적 파일 (사진) 서빙
+# app.mount("/static", StaticFiles(directory="app/uploads/photos"), name="static")
