@@ -11,7 +11,7 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-# CORS 설정
+# CORS 설정(React가 별도 서버일 때 필수)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

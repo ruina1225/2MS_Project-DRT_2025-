@@ -1,0 +1,146 @@
+Windows  볼륨에 대한 폴더 경로의 목록입니다.
+볼륨 일련 번호는 DE26-9533입니다.
+C:.
+│  structure.txt
+│  
+└─app
+    │  database.py
+    │  main.py
+    │  __init__.py
+    │  
+    ├─auth
+    ├─routers
+    │  │  hospital_router.py
+    │  │  user_router.py
+    │  │  visit_router.py
+    │  │  __init__.py
+    │  │  
+    │  └─__pycache__
+    │          hospital_router.cpython-39.pyc
+    │          user_router.cpython-39.pyc
+    │          visit_router.cpython-39.pyc
+    │          __init__.cpython-39.pyc
+    │          
+    ├─scripts
+    │      generate_fake_users.py
+    │      
+    ├─services
+    │  │  face_utils.py
+    │  │  hospital_api.py
+    │  │  hospital_csv_converter.py
+    │  │  hospital_db_loader.py
+    │  │  whisper_intergration.py
+    │  │  
+    │  └─__pycache__
+    │          hospital_api.cpython-39.pyc
+    │          hospital_csv_converter.cpython-39.pyc
+    │          hospital_db_loader.cpython-39.pyc
+    │          
+    ├─uploads
+    │  │  face1.jpg
+    │  │  face10.jpg
+    │  │  face11.jpg
+    │  │  face12.jpg
+    │  │  face13.jpg
+    │  │  face14.jpg
+    │  │  face15.jpg
+    │  │  face16.jpg
+    │  │  face17.jpg
+    │  │  face18.jpg
+    │  │  face19.jpg
+    │  │  face2.jpg
+    │  │  face20.jpg
+    │  │  face21.jpg
+    │  │  face22.jpg
+    │  │  face23.jpg
+    │  │  face24.jpg
+    │  │  face25.jpg
+    │  │  face26.jpg
+    │  │  face27.jpg
+    │  │  face28.jpg
+    │  │  face29.jpg
+    │  │  face3.jpg
+    │  │  face30.jpg
+    │  │  face4.jpg
+    │  │  face5.jpg
+    │  │  face6.jpg
+    │  │  face7.jpg
+    │  │  face8.jpg
+    │  │  face9.jpg
+    │  │  
+    │  ├─hopital_data
+    │  └─uuid_img
+    │          0535338e-86c0-454b-bbf8-86b3f4cdba29.jpg
+    │          07c309e2-4765-45dd-8a45-4d3b8a270955.jpg
+    │          0cd36092-e151-4068-9582-d859088acb84.jpg
+    │          1129b268-1022-4be2-930d-06c42fcd49c9.jpg
+    │          1449df1a-69bf-4eb0-9ee2-3a673ab9d66d.jpg
+    │          1860a64a-2b96-441a-a0bd-d80bfe67dc12.jpg
+    │          1b7a6057-effe-4c95-beb8-886be66dc26e.jpg
+    │          26682a21-d23b-4399-bd70-1c42d81cbb67.jpg
+    │          2750e69e-f8bd-4c77-a73d-fdc58beb265c.jpg
+    │          289e375f-3e03-419e-89e5-e647afdf1b55.jpg
+    │          2ae1c419-ad50-4e1c-a08c-759d8f84f57c.jpg
+    │          2c49f25a-790e-4955-8015-8d888937862d.jpg
+    │          2cfe30cb-a2f9-448e-a154-24b3d5cb6d3f.jpg
+    │          35151c71-1676-428d-9395-4b6c16a6b7ef.jpg
+    │          3e05c0c4-c2e3-40f5-b120-0cdc106fc90c.jpg
+    │          3e6204ba-d159-4288-8de6-99444c9f0e66.jpg
+    │          3f09dfb0-4a1c-4ec8-a581-12f0dd24adcc.jpg
+    │          48ef0b79-d342-47e2-b9cf-ef749e0bde56.jpg
+    │          4c17832f-9bdc-4f33-b31f-8337c83dbf89.jpg
+    │          5f6ee970-a533-47c6-b191-c948fa0e355e.jpg
+    │          64a3a755-453a-44ce-a595-7f0050b39d62.jpg
+    │          6aadd24c-5c90-4b35-b25a-5619701dbb0d.jpg
+    │          6c4a4eff-a690-4061-9242-c5e57100c47c.jpg
+    │          6cce5442-ee89-47a4-bdec-50450a83981e.jpg
+    │          6dbde952-c89d-454f-a8e7-928ebc244dc5.jpg
+    │          79790ae1-e50f-4654-aac6-380c445b4544.jpg
+    │          847792a1-8694-4706-b929-9f3e021fbb68.jpg
+    │          8d16df2b-66fa-4599-a254-bb2a270d5f95.jpg
+    │          8ffe8c1d-2d34-43a6-af66-cb44c09f042e.jpg
+    │          967f7f4b-fab5-42ea-84f0-374e057fd0a9.jpg
+    │          96b76219-28ee-4aa9-8b49-09132ec179ed.jpg
+    │          98bfb342-2993-45be-b7e7-065a4c42b33c.jpg
+    │          9a7f07d4-fe8d-4c31-bcd3-aafc64e1cd49.jpg
+    │          9c728547-8777-43c2-8972-c4c056fe42a9.jpg
+    │          9d8b720d-7496-4c9a-b730-6f9f0d22071a.jpg
+    │          9e70e35f-3691-467d-b2f4-b8a1f1dee380.jpg
+    │          9fd1ade5-8676-4ac7-bf0d-19464081d3b2.jpg
+    │          a0f01c62-5270-4bc6-bdb6-6c770cb76a62.jpg
+    │          a7dbac23-8bde-4497-8b14-4cb8a126befe.jpg
+    │          afae2c01-1fcd-4f3d-88ed-c3e1c3779ae7.jpg
+    │          b106988a-4b17-42f7-902e-43b8f41aa8f4.jpg
+    │          b230fb01-2d76-4be9-bd71-77db47b5c869.jpg
+    │          b23eab64-a7c6-4537-898c-27730f7dead4.jpg
+    │          b63a924b-36c4-49b1-aeda-a582e9f4c8a3.jpg
+    │          b72b9330-b83c-4889-b816-ecc5eb117cbe.jpg
+    │          bcc700e1-a24c-4e38-9be8-5a8639007676.jpg
+    │          bf6aca53-b678-473c-ac95-2da89d0e9704.jpg
+    │          c57a6044-0bb6-4d6b-9c02-b8c559f1fe2c.jpg
+    │          cf58c36c-3780-4e1f-931b-daa2011572ad.jpg
+    │          d198020c-cf50-4967-ac6b-6f150a392210.jpg
+    │          d1fd6b4d-4512-4abb-92cb-57adeaf22833.jpg
+    │          d29879f5-8c64-4532-be2f-eac8b1bec0cd.jpg
+    │          d45b2892-04ed-4567-aec2-8c8935dce08f.jpg
+    │          d4794a77-875c-46c6-8b11-5cba7ab03cda.jpg
+    │          de7978c1-e033-4a9b-bd3f-a01ecc261b80.jpg
+    │          ea4dad76-94f2-4775-a4da-efbb6fbdcf77.jpg
+    │          f1b09612-7953-4394-9758-74a7b5bb55fe.jpg
+    │          f4a69588-90c4-4349-9fd2-5bd8391b9510.jpg
+    │          fa7afd82-6a97-48cb-b5dd-865d05298d68.jpg
+    │          ff3e142b-98df-4863-b169-c29862c5a6de.jpg
+    │          
+    ├─utils
+    │  │  safe_converter.py
+    │  │  uuid_generator.py
+    │  │  
+    │  └─__pycache__
+    │          safe_converter.cpython-39.pyc
+    │          uuid_generator.cpython-39.pyc
+    │          
+    └─__pycache__
+            database.cpython-39.pyc
+            main.cpython-39.pyc
+            __init__.cpython-39.pyc
+            
