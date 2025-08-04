@@ -1,5 +1,9 @@
 import requests
 import csv
+import os
+
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# CSV_PATH = os.path.join(BASE_DIR, "app", "uploads", "hospital_data", "myfile.csv")
 
 # API 요청
 url = "https://api.odcloud.kr/api/3045143/v1/uddi:a121e723-7ae7-44df-ba6f-86eb09a633e7"
@@ -15,7 +19,7 @@ result = response.json()
 hospitals = [item for item in result.get("data", []) if item.get("병원종별", "").strip() == "종합병원"]
 
 # CSV로 저장 (지오코딩은 나중에)
-with open("C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/hospitals_raw.csv", "w", newline="", encoding="utf-8-sig") as f:
+with open("backend/app/uploads/hopital_data/hospitals_raw.csv", "w", newline="", encoding="utf-8-sig") as f:
     writer = csv.writer(f)
     writer.writerow(["의료기관명", "소재지", "병원종별", "연락처", "병실수", "병상수", "진료과목"])
     for item in hospitals:
@@ -42,8 +46,8 @@ column_map = {
     "진료과목": "dept_name"
 }
 
-input_file = "C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/hospitals_raw.csv"
-output_file = "C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/hospitals_english.csv"
+input_file = "backend/app/uploads/hopital_data/hospitals_raw.csv"
+output_file = "backend/app/uploads/hopital_data/hospitals_english.csv"
 
 with open(input_file, newline="", encoding="utf-8-sig") as infile, \
      open(output_file, "w", newline="", encoding="utf-8-sig") as outfile:

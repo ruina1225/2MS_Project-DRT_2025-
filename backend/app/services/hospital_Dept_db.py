@@ -9,7 +9,7 @@ con = oracledb.connect(user="mb", password="mobridge", dsn=dsn)
 cursor = con.cursor()
 
 # CSV 파일 경로
-csv_path = r"새 폴더\\MS_Project-DRT_2025-\\DB\\hospital\\files\\hospitals_english.csv"
+csv_path = r"backend/app/uploads/hopital_data/hospitals_english.csv"
 
 # 부서 데이터 삽입
 with open(csv_path, newline="", encoding="utf-8-sig") as csvfile:

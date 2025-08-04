@@ -4,8 +4,8 @@ import pandas as pd
 from app.database import get_db_conn
 
 # 원본 파일 경로
-input_path = "C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/l_c0903a3bc93d414e8f7b84cd33264ee0.csv"
-output_path = "C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/hospitals_geocoded_final.csv"
+input_path = "backend/app/uploads/hopital_data/l_c0903a3bc93d414e8f7b84cd33264ee0.csv"
+output_path = "backend/app/uploads/hopital_data/hospitals_geocoded_final.csv"
 
 # CSV 읽기
 df = pd.read_csv(input_path, encoding="utf-8-sig")
@@ -22,7 +22,7 @@ conn = get_db_conn()
 cursor = conn.cursor()
 
 # 지오코딩된 파일 경로
-output_path = "C:/Users/soldesk/Desktop/norangCode/새 폴더/2MS_Project-DRT_2025-/backend/app/uploads/hopital_data/hospitals_geocoded_final.csv"  # ← 실제 경로로 바꿔주세요
+output_path = "backend/app/uploads/hopital_data/ospitals_geocoded_final.csv"  # ← 실제 경로로 바꿔주세요
 
 with open(output_path, newline="", encoding="utf-8-sig") as csvfile:
     reader = csv.DictReader(csvfile)
